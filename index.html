@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC2 - Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/scroll-to-top.css">
+    <link rel="stylesheet" href="./css/nav-menu.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/index.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="./assets/images/oscars.svg">
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <a href="" class="title"> Animações no Oscar </a>
+            <nav id="header_content_list" aria-label="header content list">
+                <a href="#spirited_away" class="expand_on_hover">
+                    <span class="title"> A Viagem de Chihiro </span>
+                    <span class="details"> Studio Ghibli - 2001 </span>
+                </a>
+                <a href="#ratatouille" class="expand_on_hover">
+                    <span class="title"> Ratatouille </span>
+                    <span class="details"> Pixar - 2007 </span>
+                </a>
+                <a href="#zootopia" class="expand_on_hover">
+                    <span class="title"> Zootopia </span>
+                    <span class="details"> Disney - 2016 </span>
+                </a>
+                <a href="#the_boy_and_the_heron" class="expand_on_hover">
+                    <span class="title"> O Menino e a Garça </span>
+                    <span class="details"> Studio Ghibli - 2024 </span>
+                </a>
+            </nav>
+            <nav id="header_nav" aria-label="header site navigation">
+                <a href="./about.html" class="expand_on_hover"> Sobre </a>
+                <a href="./nominated.html" class="expand_on_hover"> Indicados </a>
+            </nav>
+            <div id="open-menu">
+                <img src="./assets/images/burger-menu.svg" alt="Abrir menu">
+            </div>
+        </div>
+        <div id="close-menu"></div>
+        <aside id="nav-menu" class="menu_closed">
+            <nav id="menu_nav" aria-label="menu site navigation">
+                <a href="./about.html" class="expand_on_hover"> Sobre </a>
+                <a href="./nominated.html" class="expand_on_hover"> Indicados </a>
+            </nav>
+            <nav id="menu_content_list" aria-label="menu content list">
+                <a href="#spirited_away" class="expand_on_hover">
+                    <span class="title"> A Viagem de Chihiro </span>
+                    <span class="details"> Studio Ghibli - 2001 </span>
+                </a>
+                <a href="#ratatouille" class="expand_on_hover">
+                    <span class="title"> Ratatouille </span>
+                    <span class="details"> Pixar - 2007 </span>
+                </a>
+                <a href="#zootopia" class="expand_on_hover">
+                    <span class="title"> Zootopia </span>
+                    <span class="details"> Disney - 2016 </span>
+                </a>
+                <a href="#the_boy_and_the_heron" class="expand_on_hover">
+                    <span class="title"> O Menino e a Garça </span>
+                    <span class="details"> Studio Ghibli - 2024 </span>
+                </a>
+            </nav>
+        </aside>
+    </header>
+    <main>
+        <ol class="content_list">
+            <li class="entry" id="spirited_away">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="./assets/images/spirited_away/spirited_away_poster.jpg">
+                    <img class="expand_on_hover" src="./assets/images/spirited_away/spirited_away.jpg">
+                </picture>
+                <div class="content">
+                    <span class="header">
+                        <h2 class="title">A Viagem de Chihiro</h2>
+                        <spanf class="subtitle">2001</spanf>
+                    </span>
+                    <p class="description">
+                        Chihiro é uma garota de 10 anos que descobre um mundo secreto de espíritos estranhos, criaturas e feitiçaria. Quando seus pais são misteriosamente transformados, ela deve recorrer à coragem que nunca soube que tinha para se libertar e devolver sua família ao mundo exterior.
+                        <br>
+                        Aclamada pela crítica internacional, a obra é frequentemente citada como uma das melhores da década de 2000 e uma das melhores animações de todos os tempos. O filme foi vencedor do Oscar de Melhor Filme de Animação em 2002, tornando-o o primeiro filme desenhado a mão e que não tenha o inglês como língua original a vencer essa categoria.
+                    </p>
+                    <a href="./spirited_away.html" class="details expand_on_hover" >Detalhes ></a>
+                </div>
+            </li>
+            <li class="entry" id="ratatouille">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="./assets/images/ratatouille/ratatouille_poster.jpg">
+                    <img class="expand_on_hover" src="./assets/images/ratatouille/ratatouille.jpg" alt="">
+                </picture>
+                <div class="content">
+                    <span class="header">
+                        <h2 class="title">Ratatouille</h2>
+                        <span class="subtitle">2007</span>
+                    </span>
+                    <p class="description">
+                        Remy reside em Paris e possui um sofisticado paladar. Seu sonho é se tornar um chef de cozinha e desfrutar as diversas obras da arte culinária. O único problema é que ele é um rato. Quando se acha dentro de um dos restaurantes mais finos de Paris, Remy decide transformar seu sonho em realidade.
+                        <br>
+                        O filme foi bem recebido pelo público e pela crítica. Na estreia, teve uma arrecadação considerada baixa em relação a outros filmes da Pixar, mas no final foi um sucesso de bilheteira, arrecadando mais de 600 milhões de dólares, o longa recebeu diversos prêmios, inclusive o Óscar de animação em 2007.
+                    </p>
+                    <a href="" class="details expand_on_hover disabled">Detalhes ></a>
+                </div>
+            </li>
+            <li class="entry" id="zootopia">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="./assets/images/zootopia/zootopia_poster.jpg">
+                    <img class="expand_on_hover" src="./assets/images/zootopia/zootopia.jpg" alt="">
+                </picture>
+                <div class="content">
+                    <span class="header">
+                        <h2 class="title">Zootopia</h2>
+                        <span class="subtitle">2016</span>
+                    </span>
+                    <p class="description">
+                        Judy se muda para Zootopia e se torna a primeira mamífera policial, mas enfrenta preconceito e dificuldades na cidade grande. Ela recebe a missão de encontrar um animal perdido e, com a ajuda de Nick, descobre uma conspiração que ameaça a cidade.
+                        <br>
+                        Zootopia foi dirigido por Byron Howard, Rich Moore e Jared Bush. O filme foi aclamado pela crítica e pelo público, e arrecadou mais de 1 bilhão de dólares em bilheteria. Em 2016, ganhou o Globo de Ouro e o Oscar de Melhor Filme de Animação. 
+                    </p>
+                    <a href="" class="details expand_on_hover disabled">Detalhes ></a>
+                </div>
+            </li>
+            <li class="entry" id="the_boy_and_the_heron">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="./assets/images/the_boy_and_the_heron/the_boy_and_the_heron_poster.jpg">
+                    <img class="expand_on_hover" src="./assets/images/the_boy_and_the_heron/the_boy_and_the_heron.jpg" alt="">
+                </picture>
+                <div class="content">
+                    <span class="header">
+                        <h2 class="title">O Menino e a Garça</h2>
+                        <span class="subtitle">2024</span>
+                    </span>
+                    <p class="description">
+                        Um jovem garoto chamado Mahito, ansiando por sua mãe, se aventura em um mundo compartilhado pelos vivos e os mortos. Ali, a morte encontra um fim e a vida encontra um começo. Uma semi-autobriografia fantástica sobre vida, morte e criação, em homenagem à amizade, da mente de Hayao Miyazaki.
+                        <br>
+                        Foi o segundo Oscar do octogenário e de seu famoso Studio Ghibli, após “A Viagem de Chihiro” (2001) fazer história cinematográfica como a primeira animação de língua não inglesa a vencer na mesma categoria em 2002.
+                    </p>
+                    <a href="" class="details expand_on_hover disabled">Detalhes ></a>
+                </div>
+            </li>
+        </ol>
+    </main>
+
+    <footer id="about">
+        <div class="description">
+            <span class="title">Trabalho AC2 - Website</span>
+            <div class="logos">
+                <img src="./assets/images/html_logo.svg" alt="">
+                <img src="./assets/images/css_logo.svg" alt="">
+                <img src="./assets/images/js_logo.svg" alt="">
+            </div>
+        </div>
+        <div class="members">
+            <span class="title">Membros</span>
+            <ul>
+                <li>
+                    Maria Vitória de Souza da Silva
+                </li>
+                <li>
+                    David de Oliveira Araujo
+                </li>
+                <li>
+                    Eduardo Martins Alcântara
+                </li>
+                <li>
+                    Isadora Muniz Santos
+                </li>
+                <li>
+                    Rafael Ryuichi Mizobuchi
+                </li>
+                <li>
+                    Roberto Martins Teixeira Junior
+                </li>
+            </ul>
+        </div>
+        <img class="logo_facens" src="./assets/images/facens_logo.png" alt="">
+    </footer>
+
+    <div id="scroll-to-top" class="expand_on_hover">
+        <img src="./assets/images/scroll_to_top.svg" alt="Navegar para o topo da página">
+    </div>
+</body>
+</html>

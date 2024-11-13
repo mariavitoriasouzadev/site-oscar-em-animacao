@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicações</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/scroll-to-top.css">
+    <link rel="stylesheet" href="./css/nav-menu.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/nominated/nominated.css">
+    <link rel="stylesheet" href="./css/nominated/header.css">
+    <link rel="stylesheet" href="./css/nominated/main.css">
+    <script src="./js/index.js" defer></script>
+    <script src="./js/search.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="./assets/images/oscars.svg">
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <div id="header_title">
+                <a href="./index.html" class="title"> Animações no Oscar </a>
+                <span class="subtitle"> Indicações </span>
+            </div>
+            <nav id="header_content_list" aria-label="header content list">
+                <div id="search-bar">
+                    <input id="search-bar_input" type="text" placeholder="Ano da Premiação">
+                    <div id="search-bar_button">
+                        <img src="./assets/images/search.svg" alt="">
+                    </div>
+                </div>
+            </nav>
+            <nav id="header_nav" aria-label="header site navigation">
+                <a href="./index.html" class="expand_on_hover"> Home </a>
+                <a href="./about.html" class="expand_on_hover"> Sobre </a>
+            </nav>
+            <div id="open-menu">
+                <img src="./assets/images/burger-menu.svg" alt="Abrir menu">
+            </div>
+        </div>
+        <div id="close-menu"></div>
+        <aside id="nav-menu" class="menu_closed">
+            <nav id="menu_nav" aria-label="menu site navigation">
+                <a href="./index.html" class="expand_on_hover"> Home </a>
+                <a href="./about.html" class="expand_on_hover"> Sobre </a>
+            </nav>
+            <nav id="menu_content_list" aria-label="menu content list">
+            </nav>
+        </aside>
+    </header>
+    
+    <main>
+        <div id="close-poster-view" class="hidden"></div>
+        <div id="nominated-display-list">
+            <img class="expand_on_hover" src="./assets/images/posters/A Cat in Paris (2010).jpg" alt="" data-year="2011">
+            <img class="expand_on_hover" src="./assets/images/posters/A Shaun the Sheep Movie- Farmageddon (2019).png" alt="" data-year="2020">
+            <img class="expand_on_hover" src="./assets/images/posters/Anomalisa (2015).jpg" alt="" data-year="2015">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Big Hero 6 (2014).png" alt="" data-year="2014">
+            <img class="expand_on_hover" src="./assets/images/posters/Bolt (2008).png" alt="" data-year="2008">
+            <img class="expand_on_hover" src="./assets/images/posters/Boy & the World (2014).jpg" alt="" data-year="2015">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Brave (2012).png" alt="" data-year="2012">
+            <img class="expand_on_hover" src="./assets/images/posters/Brother Bear (2003).jpeg" alt="" data-year="2003">
+            <img class="expand_on_hover" src="./assets/images/posters/Cars (2006).png" alt="" data-year="2006">
+            <img class="expand_on_hover" src="./assets/images/posters/Chico & Rita (2010).jpg" alt="" data-year="2011">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Coco (2017).png" alt="" data-year="2017">
+            <img class="expand_on_hover" src="./assets/images/posters/Coraline (2009).png" alt="" data-year="2009">
+            <img class="expand_on_hover" src="./assets/images/posters/Corpse Bride (2005).png" alt="" data-year="2005">
+            <img class="expand_on_hover" src="./assets/images/posters/Despicable Me 2 (2013).png" alt="" data-year="2013">
+            <img class="expand_on_hover" src="./assets/images/posters/Elemental (2023).jpg" alt="" data-year="2023">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Encanto (2021).jpg" alt="" data-year="2021">
+            <img class="expand_on_hover" src="./assets/images/posters/Ernest & Celestine (2012).jpg" alt="" data-year="2013">
+            <img class="expand_on_hover" src="./assets/images/posters/Fantastic Mr. Fox (2009).png" alt="" data-year="2009">
+            <img class="expand_on_hover" src="./assets/images/posters/Ferdinand (2017).png" alt="" data-year="2017">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Finding Nemo (2003).png" alt="" data-year="2003">
+            <img class="expand_on_hover" src="./assets/images/posters/Flee (2021).jpg" alt="" data-year="2021">
+            <img class="expand_on_hover" src="./assets/images/posters/Frankenweenie (2012).png" alt="" data-year="2012">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Frozen (2013).jpeg" alt="" data-year="2013">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Guillermo del Toro's Pinocchio (2022).jpg" alt="" data-year="2022">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Happy Feet (2006).jpeg" alt="" data-year="2006">
+            <img class="expand_on_hover" src="./assets/images/posters/How to Train Your Dragon (2010).png" alt="" data-year="2010">
+            <img class="expand_on_hover" src="./assets/images/posters/How to Train Your Dragon 2 (2014).png" alt="" data-year="2014">
+            <img class="expand_on_hover" src="./assets/images/posters/How to Train Your Dragon- The Hidden World (2019).png" alt="" data-year="2019">
+            <img class="expand_on_hover" src="./assets/images/posters/Howl's Moving Castle (2004).jpg" alt="" data-year="2005">
+            <img class="expand_on_hover" src="./assets/images/posters/I Lost My Body (2019).jpeg" alt="" data-year="2019">
+            <img class="expand_on_hover" src="./assets/images/posters/Ice Age (2002).png" alt="" data-year="2002">
+            <img class="expand_on_hover" src="./assets/images/posters/Incredibles 2 (2018).png" alt="" data-year="2018">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Inside Out (2015).png" alt="" data-year="2015">
+            <img class="expand_on_hover" src="./assets/images/posters/Isle of Dogs (2018).jpeg" alt="" data-year="2018">
+            <img class="expand_on_hover" src="./assets/images/posters/Jimmy Neutron- Boy Genius (2001).jpg" alt="" data-year="2001">
+            <img class="expand_on_hover" src="./assets/images/posters/Klaus (2019).png" alt="" data-year="2019">
+            <img class="expand_on_hover" src="./assets/images/posters/Kubo and the Two Strings (2016).png" alt="" data-year="2016">
+            <img class="expand_on_hover" src="./assets/images/posters/Kung Fu Panda (2008).jpeg" alt="" data-year="2008">
+            <img class="expand_on_hover" src="./assets/images/posters/Kung Fu Panda 2 (2011).jpeg" alt="" data-year="2011">
+            <img class="expand_on_hover" src="./assets/images/posters/Lilo & Stitch (2002).jpeg" alt="" data-year="2002">
+            <img class="expand_on_hover" src="./assets/images/posters/Loving Vincent (2017).jpg" alt="" data-year="2017">
+            <img class="expand_on_hover" src="./assets/images/posters/Luca (2021).png" alt="" data-year="2021">
+            <img class="expand_on_hover" src="./assets/images/posters/Marcel the Shell with Shoes On (2022).jpg" alt="" data-year="2022">
+            <img class="expand_on_hover" src="./assets/images/posters/Mirai (2018).jpg" alt="" data-year="2018">
+            <img class="expand_on_hover" src="./assets/images/posters/Missing Link (2019).png" alt="" data-year="2019">
+            <img class="expand_on_hover" src="./assets/images/posters/Moana (2016).jpg" alt="" data-year="2016">
+            <img class="expand_on_hover" src="./assets/images/posters/Monster House (2006).jpeg" alt="" data-year="2006">
+            <img class="expand_on_hover" src="./assets/images/posters/Monsters, Inc. (2001).png" alt="" data-year="2001">
+            <img class="expand_on_hover" src="./assets/images/posters/My Life as a Zucchini (2016).png" alt="" data-year="2016">
+            <img class="expand_on_hover" src="./assets/images/posters/Nimona (2023).jpg" alt="" data-year="2023">
+            <img class="expand_on_hover" src="./assets/images/posters/Onward (2020).png" alt="" data-year="2020">
+            <img class="expand_on_hover" src="./assets/images/posters/Over the Moon (2020).jpeg" alt="" data-year="2020">
+            <img class="expand_on_hover" src="./assets/images/posters/ParaNorman (2012).jpeg" alt="" data-year="2012">
+            <img class="expand_on_hover" src="./assets/images/posters/Persepolis (2007).jpeg" alt="" data-year="2007">
+            <img class="expand_on_hover" src="./assets/images/posters/Puss in Boots (2011).jpeg" alt="" data-year="2011">
+            <img class="expand_on_hover" src="./assets/images/posters/Puss in Boots- The Last Wish (2022).png" alt="" data-year="2022">
+            <img class="expand_on_hover" src="./assets/images/posters/Ralph Breaks the Internet (2018).jpeg" alt="" data-year="2018">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Rango (2011).jpeg" alt="" data-year="2011">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Ratatouille (2007).png" alt="" data-year="2007">
+            <img class="expand_on_hover" src="./assets/images/posters/Raya and the Last Dragon (2021).jpg" alt="" data-year="2021">
+            <img class="expand_on_hover" src="./assets/images/posters/Robot Dreams (2023).png" alt="" data-year="2023">
+            <img class="expand_on_hover" src="./assets/images/posters/Shark Tale (2004).png" alt="" data-year="2004">
+            <img class="expand_on_hover" src="./assets/images/posters/Shaun the Sheep Movie (2015).png" alt="" data-year="2015">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Shrek (2001).jpeg" alt="" data-year="2001">
+            <img class="expand_on_hover" src="./assets/images/posters/Shrek 2 (2004).jpeg" alt="" data-year="2004">
+            <img class="expand_on_hover" src="./assets/images/posters/Song of the Sea (2014).png" alt="" data-year="2014">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Soul (2020).jpg" alt="" data-year="2020">
+            <img class="expand_on_hover" src="./assets/images/posters/Spider-Man- Across the Spider-Verse (2023).jpg" alt="" data-year="2023">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Spider-Man- Into the Spider-Verse (2018).png" alt="" data-year="2018">
+            <img class="expand_on_hover" src="./assets/images/posters/Spirit- Stallion of the Cimarron (2002).png" alt="" data-year="2002">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Spirited Away (2001).jpeg" alt="" data-year="2002">
+            <img class="expand_on_hover" src="./assets/images/posters/Surf's Up (2007).png" alt="" data-year="2007">
+            <img class="expand_on_hover" src="./assets/images/posters/The Boss Baby (2017).jpeg" alt="" data-year="2017">
+            <img class="expand_on_hover" src="./assets/images/posters/The Boxtrolls (2014).jpeg" alt="" data-year="2014">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/The Boy and the Heron (2023).png" alt="" data-year="2023">
+            <img class="expand_on_hover" src="./assets/images/posters/The Breadwinner (2017).png" alt="" data-year="2017">
+            <img class="expand_on_hover" src="./assets/images/posters/The Croods (2013).jpeg" alt="" data-year="2013">
+            <img class="expand_on_hover" src="./assets/images/posters/The Illusionist (2010).png" alt="" data-year="2010">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/The Incredibles (2004).jpeg" alt="" data-year="2004">
+            <img class="expand_on_hover" src="./assets/images/posters/The Mitchells vs. the Machines (2021).png" alt="" data-year="2021">
+            <img class="expand_on_hover" src="./assets/images/posters/The Pirates! In an Adventure with Scientists! (2012).png" alt="" data-year="2012">
+            <img class="expand_on_hover" src="./assets/images/posters/The Princess and the Frog (2009).jpeg" alt="" data-year="2009">
+            <img class="expand_on_hover" src="./assets/images/posters/The Red Turtle (2016).png" alt="" data-year="2016">
+            <img class="expand_on_hover" src="./assets/images/posters/The Sea Beast (2022).jpg" alt="" data-year="2022">
+            <img class="expand_on_hover" src="./assets/images/posters/The Secret of Kells (2009).png" alt="" data-year="2009">
+            <img class="expand_on_hover" src="./assets/images/posters/The Tale of The Princess Kaguya (2013).jpeg" alt="" data-year="2014">
+            <img class="expand_on_hover" src="./assets/images/posters/The Triplets of Belleville (2003).jpg" alt="" data-year="2003">
+            <img class="expand_on_hover" src="./assets/images/posters/The Wind Rises (2013).png" alt="" data-year="2013">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Toy Story 3 (2010).png" alt="" data-year="2010">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Toy Story 4 (2019).jpeg" alt="" data-year="2019">
+            <img class="expand_on_hover" src="./assets/images/posters/Treasure Planet (2002).jpeg" alt="" data-year="2002">
+            <img class="expand_on_hover" src="./assets/images/posters/Turning Red (2022).png" alt="" data-year="2022">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Up (2009).png" alt="" data-year="2009">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Wallace & Gromit- The Curse of the Were-Rabbit (2005).png" alt="" data-year="2005">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/WALL·E (2008).png" alt="" data-year="2008">
+            <img class="expand_on_hover" src="./assets/images/posters/When Marnie Was There (2014).jpeg" alt="" data-year="2015">
+            <img class="expand_on_hover" src="./assets/images/posters/Wolfwalkers (2020).png" alt="" data-year="2020">
+            <img class="expand_on_hover" src="./assets/images/posters/Wreck-It Ralph (2012).jpeg" alt="" data-year="2012">
+            <img class="expand_on_hover oscar_winner" src="./assets/images/posters/Zootopia (2016).jpeg" alt="" data-year="2016">
+        </div>
+    </main>
+
+    <footer id="about">
+        <div class="description">
+            <span class="title">Trabalho AC2 - Website</span>
+            <div class="logos">
+                <img src="./assets/images/html_logo.svg" alt="">
+                <img src="./assets/images/css_logo.svg" alt="">
+                <img src="./assets/images/js_logo.svg" alt="">
+            </div>
+        </div>
+        <div class="members">
+            <span class="title">Membros</span>
+            <ul>
+                <li>
+                    Maria Vitória de Souza da Silva
+                </li>
+                <li>
+                    David de Oliveira Araujo
+                </li>
+                <li>
+                    Eduardo Martins Alcântara
+                </li>
+                <li>
+                    Isadora Muniz Santos
+                </li>
+                <li>
+                    Rafael Ryuichi Mizobuchi
+                </li>
+                <li>
+                    Roberto Martins Teixeira Junior
+                </li>
+            </ul>
+        </div>
+        <img class="logo_facens" src="./assets/images/facens_logo.png" alt="">
+    </footer>
+
+    <div id="scroll-to-top" class="expand_on_hover">
+        <img src="./assets/images/scroll_to_top.svg" alt="Navegar para o topo da página">
+    </div>
+</body>
+</html>

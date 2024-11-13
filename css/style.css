@@ -1,0 +1,65 @@
+:root {
+    --bg-color: black;
+    --text-color: white;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+    text-decoration: none;
+
+    color: var(--text-color);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+html {
+    background-image: url('../assets/images/spirited_away/wallpaper.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+body {
+    padding-top: 100vh;
+    background-image: linear-gradient(transparent, var(--bg-color) 100vh);
+    inset: 0;
+    overflow-x: hidden;
+}
+
+.expand_on_hover:hover {
+    scale: 1.125;
+    transition: .25s;
+    filter: drop-shadow(0 0 .0625rem );
+}
+
+@media (max-width: 800px) {
+    html {
+        background-attachment: fixed;
+        background-size: 200vh;
+        background-position: top;
+    }
+    .expand_on_hover:hover {
+        scale: 1;
+    }
+}
+
+.inline_icon {
+    width: 1em;
+}
+
+.disabled {
+    text-decoration: line-through;
+    opacity: .8;
+    pointer-events: none;
+}
+
+.disabled.expand_on_hover:hover{
+    scale: 1;
+    filter: none;
+}

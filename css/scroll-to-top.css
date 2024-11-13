@@ -1,0 +1,28 @@
+#scroll-to-top {
+    position: fixed;
+    transition: .125s;
+    width: 3rem;
+    aspect-ratio: 1;
+    bottom: 2rem;
+    right: 2rem;
+    filter: drop-shadow(0 0 .125rem black);
+    cursor: pointer;
+    transform: translateY(200%);
+}
+#scroll-to-top img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+#scroll-to-top.scroll-to-top_shrunk {
+    transform: translateY(0%);
+}
+
+@media (max-width: 800px) {
+    #scroll-to-top {
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin-inline: auto;
+    }
+}

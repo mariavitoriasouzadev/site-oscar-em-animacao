@@ -1,0 +1,15 @@
+html {
+    background-image: url('../../assets/images/spirited_away/wallpaper.jpeg');
+}
+
+body {
+    padding-top: 20em;
+    background-image: linear-gradient(transparent, var(--bg-color) 20em);
+}
+
+@media (max-width: 800px) {
+    body {
+        padding-top: 40em;
+        background-image: linear-gradient(transparent, var(--bg-color) 40em);
+    }
+}

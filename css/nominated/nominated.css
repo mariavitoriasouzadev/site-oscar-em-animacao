@@ -1,0 +1,5 @@
+body {
+    padding-top: 20em;
+    background-image: linear-gradient(transparent, var(--bg-color) 15em);
+    inset: 0;
+}
